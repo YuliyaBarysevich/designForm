@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+  background-image: url('http://dslv9ilpbe7p1.cloudfront.net/gBlMqazUsz01RSfgoeAfZw_store_banner_image.jpeg');
+}
+
+/************************
+Intro / Header
+*************************/
+
+.intro {
+  width: 60% !important;
+  margin: 5rem auto;
+}
+
+h1 {
+  margin-bottom: 1.4rem !important;
+  text-align: center;
+  font-size: 4rem !important;
+  font-family: "Playfair Display";
+  font-weight: 700 !important;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.container {
+  padding: 4rem 3rem !important;
+  background-color: white;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/************************
+Form 1st step
+*************************/
+
+.form-control-lg, .form-select-lg {
+  min-height: calc(1.5em + 1rem + 14px) !important;
+}
+
+label {
+  margin-bottom: 0.2rem !important;
+}
+
+label span {
+  color: rgb(199, 0, 0);
+}
+
+
+/************************
+Form 2nd step
+*************************/
+
+h3 {
+  margin-bottom: 30px !important;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  color: rgba(22, 22, 22, 0.8);
+}
+
+h4 {
+  margin-bottom: 30px !important;
+  text-align: center;
+  font-size: 23px !important;
+}
+
+label[for="taxIdNumber"]{
+  margin-bottom: 0.3rem !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.fileUpload-section {
+  margin-top: 3rem !important;
+}
+
+.fileUpload-section li {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 450;
+}
+
+input[type="file"]{
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.fileUpload-button-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fileUpload-button-section button {
+  width: 90%;
+  padding: 1.5rem 0;
+  background-color: #F0EFED;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fileUpload-button-section small {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/*****************
+Quiz section
+*****************/
+.quiz-intro{
+  margin-bottom: 0.65rem !important;
+}
+
+.quiz-intro h3{
+  margin-bottom: 0.65rem !important;
+}
+
+.fixtures-section h4, .appliances-section h4 {
+  color: rgba(100, 100, 100, 0.9);
+  font-size: 1.6rem !important;
+}
+
+.quiz-intro p {
+  font-size: 1.3rem !important;
+  color: rgba(100, 100, 100, 0.9);
+  font-weight: 500;
+}
+
+.form-check {
+  padding-left: 0 !important;
+}
+
+.form-check input {
+  font-size: 1.5rem !important;
+  margin-left: 0 !important;
+}
+
+.form-check label {
+  padding-left: 1.5rem;
+  font-size: 1.5rem !important;
+  color: rgba(100, 100, 100, 0.9);
+  font-weight: 500;
+}
+
+.fixtures-section, .appliances-section, .budget-section {
+  margin-bottom: 3vw !important;
+
+}
+
+.fixtures-checkboxes, .appliances-checkboxes {
+  margin-bottom: 1vw !important;
+}
+
+.appliances, .fixtures {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+ .appliances .btn, .fixtures .btn{
+  padding: 1.2rem 0;
+  background-color: transparent !important;
+  color: grey !important;
+  border-radius: 8px !important;
+  border: 1px solid #DDDDDD;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.appliances .btn:hover, .fixtures .btn:hover {
+  background-color: rgb(238, 237, 237) !important;
+}
+
+.appliances .btn:checked, .fixtures .btn:checked {
+  background-color: red !important;
+}
+
+
+
+.appliances input:hover, .appliances input:active, .appliances input:checked {
+  background-color: black !important;
+} 
+
+
+label[for="other-appliances"], label[for="other-fixtures"] {
+  font-size: 1.2rem;
+  text-align: left;
+  color: rgba(100, 100, 100, 0.9);
+  font-weight: 500;
+}
+
+
+/*****************
+Steps
+*****************/
+.steps {
+  margin-top: 4rem !important;
+  display: flex;
+  width: 60% !important;
+  margin: 0 auto;
+}
+
+.steps li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.step-round{
+  display: block;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  background-color: #F0EFED;
+}
+
+.divider {
+  flex-grow: 1;
+  border-bottom: 4px solid #F0EFED;
+  margin: 5px 0;
+  width: 25px;
+  height: 25px;
+}
+
+li[name="active"] {
+  background-color: black !important;
+  color: white;
+}
+
+/*****************
+Buttons
+*****************/
+.button-group {
+  margin-top: 5rem !important;
+}
+
+button[name="next"], button[name="back"] {
+  width: 95%;
+  padding: 1.2rem 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.2rem;
+
+}
+
+.offset-md-4{
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* button[name="next"] {
+  float: right;
+} */
+
+/* button[name="next"]{
+  float: right;
+  width: 90%;
+  padding: 1.2rem 0;
+  border: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.2rem;
+  background-color: black;
+}
+
+button[name="next"]:active{
+  float: right;
+  width: 90%;
+  padding: 1.2rem 0;
+  border: none;
+  border: 1px solid black !important;
+  border-radius: 7px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.2rem;
+  background-color: black;
+}
+
+button[name="next"]:hover{
+  float: right;
+  width: 90%;
+  padding: 1.2rem 0;
+  border: none;
+  border: 1px solid black !important;
+  border-radius: 7px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.2rem;
+  background-color: black;
+}
+
+button[name="next"]:disabled{
+  background-color: black;
+  opacity: 0.45;
+  pointer-events: none;
+  border-color:  rgba(0, 0, 0, 0.65);
+}
+
+button[name="back"]{
+  width: 90%;
+  padding: 1.2rem 0;
+  border: 1px solid black;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: black;
+}
+
+button[name="back"]:active{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+button[name="back"]:hover{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+} */
+
+
+/*****************
+Modal window 
+*****************/
+
+.modal-content{
+  width: 70%;
+  margin: 0 auto !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-title {
+  font-size: 3.1rem !important;
+  font-family: "Playfair Display";
+  font-weight: 700 !important;
+  margin-bottom: 1.75rem !important;
+}
+
+.modal-title, .modal-body p{
+  text-align: center !important;
+}
+.modal-body p{
+  font-size: 1.5rem !important;
+  font-family: "Playfair Display";
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  line-height: 2rem;
+  font-weight: 500 !important;
+
+}
+
+.btn-close {
+  font-size: 1.5rem !important;
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  font-weight: 700 !important;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    width: 90% !important;
+  }
+
+  form {
+    width: 90%;
+  }
+}
+
+
+
